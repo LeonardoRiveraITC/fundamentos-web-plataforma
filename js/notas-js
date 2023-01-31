@@ -1,0 +1,97 @@
+javascript
+
+lenguaje del lado del cliente
+
+angular
+
+head ,globlizado, definir variables, metodos , acciones
+
+body hacer acciones
+
+<script>
+    dinero=45.6;
+    dinero="pedro";
+<script>
+
+objetos =>DOM DocumentObjectModel
+Objetos que html construye, por cada elemento
+
+Creando así un árbol de objetos
+
+El id se usa para identificar el objeto, y en html nos sirve para identificar este objeto
+De no ser asignado, el dom lo asigna automaticamente
+
+input... id="algo"
+<script>
+    algo.value
+<script>
+
+window 
+document, el body desplegar elementos
+history
+
+<script>
+    document.write('<h1>hola mundo</h1>')
+    function function_name (argument){
+        
+    }
+</script>
+
+<input id="texto1" onclick="texto1.innerHTML='cambiando texto'" >
+eval(), todos los eventos ejecutan internamente eval  
+
+<script>
+var dato=10
+var cadena="asdasd"
+</script>
+
+<input id="texto1" onclick="var++" >
+
+
+<script>
+function calcular(){
+valoA=valorA.value;
+valoB=valorB.value;
+switch(operador.options[selectedIndex].value){
+    case '+': alert(valoA+valoB); break;
+    case '-': alert(valoA-valoB); break;
+    case '*': alert(valoA*valoB); break;
+    case '/': alert(valoA/valoB); break;
+}
+}
+</script>
+
+A<input id="texto1" type="numeric">
+B<input id="texto2" type="numeric">
+<input  >
+
+
+confirm 
+alert 
+prompt
+
+button onclick="return confirm('esta seguro')"
+alimenta el comportamiento del formulario en base al true o false 
+onsubmit
+
+form onsubmit=""
+.
+.
+.
+button
+onkey
+onmouse
+
+img.style.width="50%"
+Hay atributos que al parecer son directos, pero en realidad van a otra etuqieta, ejemplo  id.style
+
+fuction ocultar(){
+|flor.style.visibility="hidden";
+}
+
+img flor
+button  onClick="ocultar"
+
+ocultar
+mostrar
+zoom izquierda derecha arriba  abajo
